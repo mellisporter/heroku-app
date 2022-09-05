@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 3000;
 //Database
 //___________________
 // How to connect to the database either via heroku or locally
-const MONGODB_URI = process.env.MONGODB_URI;
+const MONGODB_URI = "mongodb+srv://mellisporter:abc1234@cluster0.bpfqxar.mongodb.net/?retryWrites=true&w=majority"
 
 // Connect to Mongo &
 // Fix Depreciation Warnings from Mongoose
